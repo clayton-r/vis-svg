@@ -920,7 +920,7 @@
             y : y,
             width : width,
             height : height,
-            fill : "#FFFFFF"
+            fill : this.fillStyle || "#FFFFFF"
         }, true);
         parent.appendChild(rect);
     };
